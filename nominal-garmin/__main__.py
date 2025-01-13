@@ -115,7 +115,7 @@ def push(ctx: click.Context, activity_id: str) -> None:
                     df,
                     name,
                     timestamp_column="timestamp",
-                    timestamp_type=nominal.ts.Custom("yyyy-MM-dd HH:mm:ssZ"),
+                    timestamp_type=nominal.ts.Custom("yyyy-MM-dd HH:mm:ss"),
                 )
 
 
